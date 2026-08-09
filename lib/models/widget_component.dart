@@ -1,13 +1,13 @@
 
 import 'package:flutter/material.dart';
 
-class FormComponent {
+class WidgetComponent {
   final String label;
   final IconData icon;
   final String description;
   final Widget customContent;
 
-  FormComponent({
+  WidgetComponent({
     required this.label,
     required this.icon,
     required this.customContent, 

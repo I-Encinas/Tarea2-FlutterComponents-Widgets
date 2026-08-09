@@ -4,13 +4,8 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Se construyó una tabla que lista distintos widgets y muestra cómo funciona
+- Se creó un modelo WidgetComponent para determinar sus atributos
+- En el screen se lista el nombre y una breve descripcion de cada widget en formato de tabla
+- Al presionar el boton de cada widget, se despliega un contenedor para poder probarlo
+![alt text](image.png)

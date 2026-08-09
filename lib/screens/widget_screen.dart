@@ -1,11 +1,11 @@
 import 'package:components_application/widgets/widget_list.dart';
-import 'package:components_application/models/form_component.dart';
+import 'package:components_application/models/widget_component.dart';
 import 'package:flutter/material.dart';
 
 class WidgetScreen extends StatelessWidget {
   const WidgetScreen({super.key});
 
-  void _showWidgetModal(BuildContext context, FormComponent component) {
+  void _showWidgetModal(BuildContext context, WidgetComponent component) {
     showDialog(
       context: context,
       barrierDismissible: true,
@@ -50,9 +50,9 @@ class WidgetScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final List<FormComponent> widgetList = WidgetList.getFormWidgets();
+    final List<WidgetComponent> widgetList = WidgetList.getFormWidgets();
     return Scaffold(
-      appBar: AppBar(title: const Text('Formulario Dinámico In-Situ')),
+      appBar: AppBar(title: const Text('Ejemplo de uso de varios Widgets')),
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(12),

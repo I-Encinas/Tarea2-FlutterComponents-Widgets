@@ -17,9 +17,7 @@ class AvatarScreen extends StatelessWidget {
 }
 
 class _UserAvatar extends StatelessWidget {
-  const _UserAvatar({
-    super.key,
-  });
+  const _UserAvatar({super.key,});
 
   @override
   Widget build(BuildContext context) {
